@@ -3106,5 +3106,365 @@ export const questions: Question[] = [
     category: 'plant',
     difficulty: 'easy',
     explanation: 'The root cap protects the delicate tip of the root as it pushes through soil.'
+  },
+  {
+    id: 'plant-71',
+    text: 'Which plant hormone is primarily responsible for closing stomata during drought stress?',
+    options: ['Abscisic acid', 'Auxin', 'Gibberellin', 'Cytokinin'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Abscisic acid signals guard cells to close stomata during drought.'
+  },
+  {
+    id: 'plant-72',
+    text: 'What is the main function of the pericycle in plant roots?',
+    options: ['Initiates lateral root growth', 'Stores starch', 'Absorbs sunlight', 'Produces flowers'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'The pericycle is a layer of cells that gives rise to lateral roots.'
+  },
+  {
+    id: 'plant-73',
+    text: 'Which mineral is essential for the synthesis of chlorophyll and is often deficient in sandy soils?',
+    options: ['Magnesium', 'Calcium', 'Potassium', 'Sulfur'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Magnesium is a central component of chlorophyll and is often low in sandy soils.'
+  },
+  {
+    id: 'plant-74',
+    text: 'What is the main function of the spongy mesophyll in leaves?',
+    options: ['Facilitates gas exchange', 'Stores water', 'Provides support', 'Produces seeds'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'The spongy mesophyll has air spaces that facilitate gas exchange.'
+  },
+  {
+    id: 'plant-75',
+    text: 'Which process describes the movement of sugars from source to sink in plants?',
+    options: ['Pressure-flow hypothesis', 'Cohesion-tension', 'Diffusion', 'Fermentation'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'The pressure-flow hypothesis explains how sugars move through phloem.'
+  },
+  {
+    id: 'plant-76',
+    text: 'Which mineral is essential for the activation of many plant enzymes?',
+    options: ['Magnesium', 'Iron', 'Zinc', 'Copper'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Magnesium is a cofactor for many plant enzymes.'
+  },
+  {
+    id: 'plant-77',
+    text: 'What is the main function of the apical meristem?',
+    options: ['Promotes primary growth and elongation', 'Stores nutrients', 'Absorbs water', 'Produces flowers'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'The apical meristem is a region of active cell division at the tips of roots and shoots.'
+  },
+  {
+    id: 'plant-78',
+    text: 'Which pigment protects plants from excessive light by dissipating excess energy?',
+    options: ['Carotenoids', 'Chlorophyll', 'Anthocyanins', 'Phytochrome'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Carotenoids protect plants from photooxidative damage.'
+  },
+  {
+    id: 'plant-79',
+    text: 'What is the main function of the periderm in woody plants?',
+    options: ['Protects against water loss and pathogens', 'Stores starch', 'Absorbs sunlight', 'Produces seeds'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'The periderm (bark) protects woody stems from water loss and infection.'
+  },
+  {
+    id: 'plant-80',
+    text: 'Which process describes the loss of water from plant leaves at night?',
+    options: ['Guttation', 'Transpiration', 'Respiration', 'Fermentation'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Guttation is the exudation of water droplets from leaf edges, usually at night.'
+  },
+  {
+    id: 'plant-81',
+    text: 'Which plant structure is responsible for the perception of gravity?',
+    options: ['Statoliths in root cap cells', 'Guard cells', 'Xylem vessels', 'Phloem fibers'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Statoliths are specialized organelles in root cap cells that help plants sense gravity.'
+  },
+  {
+    id: 'plant-82',
+    text: 'Which mineral deficiency causes interveinal chlorosis in young leaves?',
+    options: ['Iron', 'Magnesium', 'Potassium', 'Calcium'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Iron deficiency causes yellowing between the veins of young leaves.'
+  },
+  {
+    id: 'plant-83',
+    text: 'What is the main function of lenticels on plant stems?',
+    options: ['Allow gas exchange', 'Store water', 'Produce flowers', 'Absorb nutrients'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Lenticels are small openings that allow gas exchange in stems.'
+  },
+  {
+    id: 'plant-84',
+    text: 'Which process is responsible for the uptake of water by plant roots?',
+    options: ['Osmosis', 'Diffusion', 'Active transport', 'Transpiration'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Osmosis is the movement of water into roots from the soil.'
+  },
+  {
+    id: 'plant-85',
+    text: 'Which plant hormone is primarily responsible for seed dormancy?',
+    options: ['Abscisic acid', 'Auxin', 'Gibberellin', 'Ethylene'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Abscisic acid (ABA) maintains seed dormancy until conditions are right for germination.'
+  },
+  {
+    id: 'plant-86',
+    text: 'What is the main function of the palisade mesophyll in leaves?',
+    options: ['Photosynthesis', 'Water storage', 'Support', 'Transport'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'The palisade mesophyll contains many chloroplasts and is the main site of photosynthesis.'
+  },
+  {
+    id: 'plant-87',
+    text: 'Which process is responsible for the opening of stomata in response to light?',
+    options: ['Active transport of potassium ions', 'Diffusion of CO₂', 'Transpiration', 'Fermentation'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Potassium ions are actively transported into guard cells, causing stomata to open.'
+  },
+  {
+    id: 'plant-88',
+    text: 'What is the main function of phytochrome in plants?',
+    options: ['Senses red/far-red light and regulates photoperiodism', 'Stores starch', 'Absorbs water', 'Produces flowers'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Phytochrome is a photoreceptor that helps plants sense day length.'
+  },
+  {
+    id: 'plant-89',
+    text: 'Which plant hormone is primarily responsible for stem elongation?',
+    options: ['Gibberellin', 'Auxin', 'Cytokinin', 'Ethylene'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Gibberellins promote stem elongation and seed germination.'
+  },
+  {
+    id: 'plant-90',
+    text: 'What is the main function of the vascular cambium?',
+    options: ['Produces new xylem and phloem', 'Stores water', 'Absorbs nutrients', 'Produces flowers'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'The vascular cambium is a lateral meristem that produces secondary xylem and phloem.'
+  },
+  {
+    id: 'plant-91',
+    text: 'Which plant hormone is most involved in the response to wounding and herbivory?',
+    options: ['Jasmonic acid', 'Auxin', 'Gibberellin', 'Cytokinin'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Jasmonic acid is a key hormone in plant defense against wounding and herbivores.'
+  },
+  {
+    id: 'plant-92',
+    text: 'What is the main function of the cuticle on plant leaves?',
+    options: ['Prevents water loss', 'Absorbs sunlight', 'Stores starch', 'Produces seeds'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'The cuticle is a waxy layer that prevents excessive water loss from leaves.'
+  },
+  {
+    id: 'plant-93',
+    text: 'Which mineral is a cofactor for the enzyme nitrate reductase in plants?',
+    options: ['Molybdenum', 'Iron', 'Zinc', 'Copper'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Molybdenum is required for nitrate reductase activity.'
+  },
+  {
+    id: 'plant-94',
+    text: 'What is the main function of the endodermis in plant roots?',
+    options: ['Regulates water and nutrient uptake', 'Stores starch', 'Produces flowers', 'Absorbs sunlight'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'The endodermis acts as a selective barrier for water and nutrients entering the vascular system.'
+  },
+  {
+    id: 'plant-95',
+    text: 'Which process describes the movement of water through the plant from roots to leaves?',
+    options: ['Transpiration stream', 'Diffusion', 'Active transport', 'Fermentation'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'The transpiration stream is the flow of water from roots to leaves.'
+  },
+  {
+    id: 'plant-96',
+    text: 'Which plant structure is responsible for the majority of photosynthesis?',
+    options: ['Palisade mesophyll', 'Spongy mesophyll', 'Guard cells', 'Root hairs'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'The palisade mesophyll contains many chloroplasts and is the main site of photosynthesis.'
+  },
+  {
+    id: 'plant-97',
+    text: 'Which mineral is essential for the synthesis of DNA and RNA in plants?',
+    options: ['Phosphorus', 'Potassium', 'Calcium', 'Magnesium'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Phosphorus is a key component of DNA and RNA.'
+  },
+  {
+    id: 'plant-98',
+    text: 'What is the main function of the Casparian strip in roots?',
+    options: ['Blocks passive flow of substances into the stele', 'Stores water', 'Produces hormones', 'Absorbs sunlight'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'The Casparian strip blocks passive flow of substances into the vascular cylinder.'
+  },
+  {
+    id: 'plant-99',
+    text: 'Which process is responsible for the movement of minerals into root cells against a concentration gradient?',
+    options: ['Active transport', 'Diffusion', 'Osmosis', 'Transpiration'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Active transport moves minerals into root cells against a concentration gradient.'
+  },
+  {
+    id: 'plant-100',
+    text: 'Which plant hormone is most involved in promoting cell division?',
+    options: ['Cytokinin', 'Auxin', 'Gibberellin', 'Abscisic acid'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Cytokinins are hormones that promote cell division in plant tissues.'
+  },
+  {
+    id: 'plant-101',
+    text: 'What is the main function of the pericycle in plant roots?',
+    options: ['Initiates lateral root growth', 'Stores starch', 'Absorbs sunlight', 'Produces flowers'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'The pericycle is a layer of cells that gives rise to lateral roots.'
+  },
+  {
+    id: 'plant-102',
+    text: 'Which mineral is essential for the activation of Rubisco, the enzyme in photosynthesis?',
+    options: ['Magnesium', 'Iron', 'Zinc', 'Copper'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Magnesium is required for Rubisco activation.'
+  },
+  {
+    id: 'plant-103',
+    text: 'What is the main function of the phloem in plants?',
+    options: ['Transports sugars and nutrients', 'Transports water', 'Provides support', 'Produces seeds'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Phloem transports sugars and nutrients produced by photosynthesis.'
+  },
+  {
+    id: 'plant-104',
+    text: 'Which process describes the loss of water vapor from plant leaves?',
+    options: ['Transpiration', 'Respiration', 'Photosynthesis', 'Germination'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Transpiration is the loss of water vapor from plant leaves.'
+  },
+  {
+    id: 'plant-105',
+    text: 'Which mineral is essential for the synthesis of chlorophyll?',
+    options: ['Magnesium', 'Iron', 'Potassium', 'Calcium'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Magnesium is a central atom in the chlorophyll molecule.'
+  },
+  {
+    id: 'plant-106',
+    text: 'What is the main function of the guard cells in plant leaves?',
+    options: ['Regulate the opening and closing of stomata', 'Store water', 'Produce pollen', 'Absorb minerals'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Guard cells control the opening and closing of stomata for gas exchange.'
+  },
+  {
+    id: 'plant-107',
+    text: 'Which plant hormone is responsible for fruit ripening?',
+    options: ['Ethylene', 'Auxin', 'Gibberellin', 'Cytokinin'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Ethylene is a gaseous hormone that promotes fruit ripening.'
+  },
+  {
+    id: 'plant-108',
+    text: 'Which process allows plants to convert light energy into chemical energy?',
+    options: ['Photosynthesis', 'Respiration', 'Transpiration', 'Fermentation'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Photosynthesis converts light energy into chemical energy (glucose).'
+  },
+  {
+    id: 'plant-109',
+    text: 'Which plant structure is responsible for producing seeds?',
+    options: ['Flower', 'Leaf', 'Root', 'Stem'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Flowers are the reproductive structures that produce seeds.'
+  },
+  {
+    id: 'plant-110',
+    text: 'Which process is responsible for the movement of water into root cells from the soil?',
+    options: ['Osmosis', 'Diffusion', 'Active transport', 'Transpiration'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'medium',
+    explanation: 'Osmosis is the movement of water into roots from the soil.'
   }
 ];
