@@ -3466,5 +3466,365 @@ export const questions: Question[] = [
     category: 'plant',
     difficulty: 'medium',
     explanation: 'Osmosis is the movement of water into roots from the soil.'
+  },
+  {
+    id: 'plant-111',
+    text: 'Which protein complex is responsible for the photolysis of water during photosynthesis?',
+    options: ['Photosystem II', 'Photosystem I', 'ATP synthase', 'Rubisco'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Photosystem II splits water molecules, releasing oxygen and electrons.'
+  },
+  {
+    id: 'plant-112',
+    text: 'What is the main function of the glyoxylate cycle in plant seedlings?',
+    options: ['Converts stored lipids to carbohydrates', 'Synthesizes chlorophyll', 'Fixes nitrogen', 'Produces ethylene'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'The glyoxylate cycle allows seedlings to convert fats into sugars for growth before photosynthesis is established.'
+  },
+  {
+    id: 'plant-113',
+    text: 'Which plant hormone is most directly involved in the triple response to mechanical stress in seedlings?',
+    options: ['Ethylene', 'Auxin', 'Gibberellin', 'Cytokinin'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Ethylene mediates the triple response: inhibition of stem elongation, stem thickening, and horizontal growth.'
+  },
+  {
+    id: 'plant-114',
+    text: 'What is the role of the enzyme ACC synthase in plants?',
+    options: ['Catalyzes the rate-limiting step in ethylene biosynthesis', 'Fixes carbon dioxide', 'Synthesizes abscisic acid', 'Degrades auxin'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'ACC synthase converts S-adenosylmethionine to ACC, a precursor of ethylene.'
+  },
+  {
+    id: 'plant-115',
+    text: 'Which mineral is a cofactor for the enzyme nitrate reductase in plants?',
+    options: ['Molybdenum', 'Boron', 'Zinc', 'Copper'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Molybdenum is required for nitrate reductase activity.'
+  },
+  {
+    id: 'plant-116',
+    text: 'What is the function of the phytochrome-interacting factors (PIFs) in plants?',
+    options: ['Regulate gene expression in response to light', 'Transport water', 'Synthesize chlorophyll', 'Fix nitrogen'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'PIFs are transcription factors that interact with phytochrome to regulate light-responsive genes.'
+  },
+  {
+    id: 'plant-117',
+    text: 'Which process is responsible for the movement of proteins and RNA between plant cells?',
+    options: ['Plasmodesmata transport', 'Vesicle trafficking', 'Endocytosis', 'Phagocytosis'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Plasmodesmata are channels that allow the movement of proteins and RNA between cells.'
+  },
+  {
+    id: 'plant-118',
+    text: 'What is the main function of the enzyme superoxide dismutase in plants?',
+    options: ['Detoxifies reactive oxygen species', 'Synthesizes ATP', 'Fixes nitrogen', 'Degrades starch'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Superoxide dismutase converts superoxide radicals to hydrogen peroxide, protecting cells from oxidative damage.'
+  },
+  {
+    id: 'plant-119',
+    text: 'Which plant hormone is most involved in the regulation of seed dormancy and drought tolerance?',
+    options: ['Abscisic acid', 'Auxin', 'Gibberellin', 'Cytokinin'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Abscisic acid (ABA) regulates seed dormancy and drought response.'
+  },
+  {
+    id: 'plant-120',
+    text: 'What is the main function of the enzyme rubisco activase?',
+    options: ['Maintains rubisco in an active state for carbon fixation', 'Synthesizes ATP', 'Degrades starch', 'Fixes nitrogen'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Rubisco activase removes inhibitors from rubisco, allowing it to fix carbon dioxide.'
+  },
+  {
+    id: 'plant-121',
+    text: 'Which process describes the movement of water through the apoplast pathway in roots?',
+    options: ['Movement through cell walls and intercellular spaces', 'Movement through cytoplasm', 'Movement through plasmodesmata', 'Movement through xylem vessels only'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'The apoplast pathway involves water movement through cell walls and spaces outside the plasma membrane.'
+  },
+  {
+    id: 'plant-122',
+    text: 'What is the main function of the enzyme glutamine synthetase in plants?',
+    options: ['Assimilates ammonium into amino acids', 'Synthesizes DNA', 'Degrades proteins', 'Fixes nitrogen'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Glutamine synthetase incorporates ammonium into glutamine, a key step in nitrogen assimilation.'
+  },
+  {
+    id: 'plant-123',
+    text: 'Which mineral is essential for the synthesis of the plant hormone auxin?',
+    options: ['Zinc', 'Calcium', 'Magnesium', 'Potassium'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Zinc is required for the synthesis of tryptophan, a precursor of auxin.'
+  },
+  {
+    id: 'plant-124',
+    text: 'What is the main function of the enzyme phenylalanine ammonia-lyase (PAL) in plants?',
+    options: ['Initiates the synthesis of phenolic compounds', 'Synthesizes ATP', 'Fixes nitrogen', 'Degrades starch'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'PAL catalyzes the first step in the synthesis of phenolics, important for plant defense.'
+  },
+  {
+    id: 'plant-125',
+    text: 'Which process is responsible for the formation of aerenchyma in plant roots?',
+    options: ['Programmed cell death', 'Cell elongation', 'Photosynthesis', 'Transpiration'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Aerenchyma forms through programmed cell death, creating air spaces for oxygen transport.'
+  },
+  {
+    id: 'plant-126',
+    text: 'What is the main function of the enzyme invertase in plants?',
+    options: ['Hydrolyzes sucrose into glucose and fructose', 'Synthesizes ATP', 'Fixes nitrogen', 'Degrades proteins'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Invertase breaks down sucrose into its component sugars for metabolism.'
+  },
+  {
+    id: 'plant-127',
+    text: 'Which plant hormone is most involved in the regulation of apical dominance?',
+    options: ['Auxin', 'Gibberellin', 'Cytokinin', 'Ethylene'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Auxin produced in the shoot tip suppresses the growth of lateral buds (apical dominance).'
+  },
+  {
+    id: 'plant-128',
+    text: 'What is the main function of the enzyme peroxidase in plants?',
+    options: ['Detoxifies hydrogen peroxide and strengthens cell walls', 'Synthesizes ATP', 'Fixes nitrogen', 'Degrades starch'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Peroxidase detoxifies hydrogen peroxide and is involved in lignin formation.'
+  },
+  {
+    id: 'plant-129',
+    text: 'Which process is responsible for the movement of organic molecules through the phloem?',
+    options: ['Mass flow', 'Diffusion', 'Active transport', 'Transpiration'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Mass flow (pressure flow) moves organic molecules through the phloem.'
+  },
+  {
+    id: 'plant-130',
+    text: 'What is the main function of the enzyme ascorbate peroxidase in plants?',
+    options: ['Removes hydrogen peroxide using ascorbate as an electron donor', 'Synthesizes ATP', 'Fixes nitrogen', 'Degrades proteins'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Ascorbate peroxidase is a key enzyme in the detoxification of hydrogen peroxide in plant cells.'
+  },
+  {
+    id: 'plant-131',
+    text: 'Which enzyme is responsible for the initial carboxylation step in C4 photosynthesis?',
+    options: ['PEP carboxylase', 'Rubisco', 'Nitrate reductase', 'ATP synthase'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'PEP carboxylase fixes CO2 in the mesophyll cells of C4 plants before the Calvin cycle.'
+  },
+  {
+    id: 'plant-132',
+    text: 'What is the main function of the tonoplast in plant cells?',
+    options: ['Surrounds the vacuole and regulates ion movement', 'Synthesizes proteins', 'Stores starch', 'Produces chlorophyll'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'The tonoplast is the membrane surrounding the vacuole, controlling ion and molecule transport.'
+  },
+  {
+    id: 'plant-133',
+    text: 'Which plant hormone is most involved in the regulation of leaf senescence?',
+    options: ['Ethylene', 'Auxin', 'Gibberellin', 'Cytokinin'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Ethylene promotes leaf senescence and abscission.'
+  },
+  {
+    id: 'plant-134',
+    text: 'What is the main function of the enzyme allene oxide synthase in plants?',
+    options: ['Catalyzes a key step in jasmonic acid biosynthesis', 'Synthesizes ATP', 'Fixes nitrogen', 'Degrades starch'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Allene oxide synthase is involved in the biosynthesis of jasmonic acid, a stress hormone.'
+  },
+  {
+    id: 'plant-135',
+    text: 'Which mineral is essential for the function of plastocyanin in the electron transport chain?',
+    options: ['Copper', 'Iron', 'Manganese', 'Zinc'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Copper is a cofactor in plastocyanin, which transfers electrons in photosynthesis.'
+  },
+  {
+    id: 'plant-136',
+    text: 'What is the main function of the enzyme glutathione reductase in plants?',
+    options: ['Regenerates reduced glutathione for antioxidant defense', 'Synthesizes ATP', 'Fixes nitrogen', 'Degrades proteins'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Glutathione reductase maintains the pool of reduced glutathione, a key antioxidant.'
+  },
+  {
+    id: 'plant-137',
+    text: 'Which process is responsible for the movement of calcium ions into the plant cell cytosol during signaling?',
+    options: ['Calcium influx through ion channels', 'Active transport by ATPases', 'Diffusion through plasmodesmata', 'Mass flow'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Calcium influx through ion channels is a rapid signaling mechanism in plant cells.'
+  },
+  {
+    id: 'plant-138',
+    text: 'What is the main function of the enzyme S-adenosylmethionine synthetase in plants?',
+    options: ['Synthesizes SAM, a methyl group donor for many reactions', 'Synthesizes ATP', 'Fixes nitrogen', 'Degrades proteins'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'S-adenosylmethionine synthetase produces SAM, important for methylation and ethylene biosynthesis.'
+  },
+  {
+    id: 'plant-139',
+    text: 'Which protein is responsible for blue light perception in plants?',
+    options: ['Cryptochrome', 'Phytochrome', 'Rubisco', 'Plastocyanin'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Cryptochromes are blue light photoreceptors involved in growth and circadian rhythms.'
+  },
+  {
+    id: 'plant-140',
+    text: 'What is the main function of the enzyme nitrate reductase in plants?',
+    options: ['Reduces nitrate to nitrite', 'Synthesizes ATP', 'Fixes nitrogen', 'Degrades proteins'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Nitrate reductase catalyzes the reduction of nitrate to nitrite in nitrogen assimilation.'
+  },
+  {
+    id: 'plant-141',
+    text: 'Which process is responsible for the movement of potassium ions into guard cells during stomatal opening?',
+    options: ['Active transport', 'Diffusion', 'Mass flow', 'Osmosis'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Active transport of potassium ions into guard cells causes water influx and stomatal opening.'
+  },
+  {
+    id: 'plant-142',
+    text: 'What is the main function of the enzyme UDP-glucose pyrophosphorylase in plants?',
+    options: ['Synthesizes UDP-glucose for cell wall and starch biosynthesis', 'Synthesizes ATP', 'Fixes nitrogen', 'Degrades proteins'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'UDP-glucose pyrophosphorylase is essential for the synthesis of UDP-glucose, a precursor for polysaccharides.'
+  },
+  {
+    id: 'plant-143',
+    text: 'Which mineral is a cofactor for the enzyme carbonic anhydrase in plants?',
+    options: ['Zinc', 'Iron', 'Copper', 'Manganese'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Zinc is required for carbonic anhydrase, which catalyzes the conversion of CO2 and water to bicarbonate.'
+  },
+  {
+    id: 'plant-144',
+    text: 'What is the main function of the enzyme ADP-glucose pyrophosphorylase in plants?',
+    options: ['Initiates starch biosynthesis', 'Synthesizes ATP', 'Fixes nitrogen', 'Degrades proteins'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'ADP-glucose pyrophosphorylase catalyzes the first step in starch biosynthesis.'
+  },
+  {
+    id: 'plant-145',
+    text: 'Which protein is responsible for red light perception in plants?',
+    options: ['Phytochrome', 'Cryptochrome', 'Rubisco', 'Plastocyanin'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Phytochromes are red/far-red light photoreceptors that regulate plant development.'
+  },
+  {
+    id: 'plant-146',
+    text: 'What is the main function of the enzyme malate dehydrogenase in plants?',
+    options: ['Catalyzes the conversion of malate to oxaloacetate', 'Synthesizes ATP', 'Fixes nitrogen', 'Degrades proteins'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Malate dehydrogenase is involved in the citric acid cycle and C4 metabolism.'
+  },
+  {
+    id: 'plant-147',
+    text: 'Which mineral is essential for the function of the oxygen-evolving complex in photosystem II?',
+    options: ['Manganese', 'Iron', 'Copper', 'Zinc'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Manganese is a key component of the oxygen-evolving complex that splits water in photosystem II.'
+  },
+  {
+    id: 'plant-148',
+    text: 'What is the main function of the enzyme ferredoxin-NADP+ reductase in plants?',
+    options: ['Transfers electrons to NADP+ in the light reactions', 'Synthesizes ATP', 'Fixes nitrogen', 'Degrades proteins'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Ferredoxin-NADP+ reductase catalyzes the final electron transfer to NADP+ in photosynthesis.'
+  },
+  {
+    id: 'plant-149',
+    text: 'Which process is responsible for the movement of water through the symplast pathway in roots?',
+    options: ['Movement through cytoplasm via plasmodesmata', 'Movement through cell walls', 'Movement through xylem vessels', 'Movement through intercellular spaces'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'The symplast pathway involves water movement through the cytoplasm and plasmodesmata.'
+  },
+  {
+    id: 'plant-150',
+    text: 'What is the main function of the enzyme polyphenol oxidase in plants?',
+    options: ['Oxidizes phenolics to quinones for defense', 'Synthesizes ATP', 'Fixes nitrogen', 'Degrades proteins'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'hard',
+    explanation: 'Polyphenol oxidase is involved in plant defense by oxidizing phenolics to toxic quinones.'
   }
 ];
