@@ -100,96 +100,828 @@ export const questions: Question[] = [
     difficulty: 'easy',
     explanation: 'Manure adds nutrients to the soil, helping plants grow.'
   },
-  // --- SOIL HEALTH: MEDIUM ---
+  // --- SOIL HEALTH: EASY (ADDED) ---
   {
     id: 'soil-11',
-    text: 'What is the process called when soil is carried away by wind or water?',
-    options: ['Erosion', 'Photosynthesis', 'Germination', 'Evaporation'],
-    correctAnswer: 0,
+    text: 'What is the main purpose of soil for plants?',
+    options: ['To provide a place to play', 'To give nutrients and support', 'To keep them dry', 'To make them colorful'],
+    correctAnswer: 1,
     category: 'soil',
-    difficulty: 'medium',
-    explanation: 'Erosion is the process of soil being moved by wind or water.'
+    difficulty: 'easy',
+    explanation: 'Soil provides nutrients and physical support for plants to grow.'
   },
   {
     id: 'soil-12',
-    text: 'Which nutrient is most important for plant growth in soil?',
-    options: ['Nitrogen', 'Gold', 'Helium', 'Mercury'],
+    text: 'Which of these is a living thing found in healthy soil?',
+    options: ['Earthworm', 'Plastic bag', 'Glass', 'Metal can'],
     correctAnswer: 0,
     category: 'soil',
-    difficulty: 'medium',
-    explanation: 'Nitrogen is a key nutrient for plant growth.'
+    difficulty: 'easy',
+    explanation: 'Earthworms are living creatures that help keep soil healthy.'
   },
   {
     id: 'soil-13',
-    text: 'What do soil microbes do?',
-    options: ['Make soil unhealthy', 'Help break down organic matter', 'Eat rocks', 'Make soil dry'],
+    text: 'What do roots do in the soil?',
+    options: ['Fly in the air', 'Absorb water and nutrients', 'Make noise', 'Glow in the dark'],
     correctAnswer: 1,
     category: 'soil',
-    difficulty: 'medium',
-    explanation: 'Soil microbes help decompose organic matter, enriching the soil.'
+    difficulty: 'easy',
+    explanation: 'Roots absorb water and nutrients from the soil for the plant.'
   },
   {
     id: 'soil-14',
-    text: 'What is pH a measure of in soil?',
-    options: ['Temperature', 'Acidity or alkalinity', 'Color', 'Smell'],
-    correctAnswer: 1,
+    text: 'Which of these helps soil stay moist?',
+    options: ['Mulch', 'Plastic', 'Rocks', 'Paper'],
+    correctAnswer: 0,
     category: 'soil',
-    difficulty: 'medium',
-    explanation: 'Soil pH measures how acidic or alkaline the soil is.'
+    difficulty: 'easy',
+    explanation: 'Mulch helps soil retain moisture and stay cool.'
   },
   {
     id: 'soil-15',
-    text: 'Which farming method helps keep soil healthy?',
-    options: ['Crop rotation', 'Monoculture', 'Overgrazing', 'Deforestation'],
+    text: 'What is a sign of healthy soil?',
+    options: ['Lots of worms', 'No plants', 'Dry and cracked', 'Covered in trash'],
     correctAnswer: 0,
     category: 'soil',
-    difficulty: 'medium',
-    explanation: 'Crop rotation helps maintain soil fertility and health.'
+    difficulty: 'easy',
+    explanation: 'Healthy soil often has many worms and other small creatures.'
   },
   {
     id: 'soil-16',
-    text: 'What is humus?',
-    options: ['A type of rock', 'Decayed plant and animal matter in soil', 'A kind of insect', 'A fertilizer brand'],
+    text: 'Why should we avoid stepping on garden soil too much?',
+    options: ['It makes it dirty', 'It compacts the soil', 'It makes it colorful', 'It makes it wet'],
     correctAnswer: 1,
     category: 'soil',
-    difficulty: 'medium',
-    explanation: 'Humus is decomposed organic matter in soil.'
+    difficulty: 'easy',
+    explanation: 'Stepping on soil too much compacts it, making it hard for roots to grow.'
   },
   {
     id: 'soil-17',
-    text: 'Why is soil texture important?',
-    options: ["It affects water and air movement", "It changes the soil's color", "It makes soil taste better", "It helps plants sing"],
+    text: 'What is the best way to add nutrients to soil?',
+    options: ['Add compost', 'Add plastic', 'Add sand', 'Add stones'],
     correctAnswer: 0,
     category: 'soil',
-    difficulty: 'medium',
-    explanation: 'Soil texture affects how water and air move through soil.'
+    difficulty: 'easy',
+    explanation: 'Compost adds nutrients and organic matter to soil.'
   },
   {
     id: 'soil-18',
-    text: 'Which soil type holds the most water?',
-    options: ['Sand', 'Clay', 'Gravel', 'Pebbles'],
-    correctAnswer: 1,
+    text: 'Which of these is a type of soil?',
+    options: ['Clay', 'Glass', 'Plastic', 'Metal'],
+    correctAnswer: 0,
     category: 'soil',
-    difficulty: 'medium',
-    explanation: 'Clay soil holds more water than sandy or gravelly soils.'
+    difficulty: 'easy',
+    explanation: 'Clay is a type of soil with small particles.'
   },
   {
     id: 'soil-19',
-    text: 'What is a cover crop?',
-    options: ['A crop grown to protect and enrich soil', 'A crop used for making clothes', 'A crop that covers animals', 'A crop that grows in water'],
+    text: 'What do you call soil that is good for growing plants?',
+    options: ['Fertile', 'Sticky', 'Hard', 'Dry'],
     correctAnswer: 0,
     category: 'soil',
-    difficulty: 'medium',
-    explanation: 'Cover crops are grown to protect and improve soil health.'
+    difficulty: 'easy',
+    explanation: 'Fertile soil is rich in nutrients and good for growing plants.'
   },
   {
     id: 'soil-20',
-    text: 'What does soil compaction do?',
-    options: ['Increases plant growth', 'Reduces air and water movement', 'Makes soil lighter', 'Adds nutrients'],
-    correctAnswer: 1,
+    text: 'What can you add to soil to help plants grow better?',
+    options: ['Fertilizer', 'Paint', 'Plastic', 'Sandpaper'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Fertilizer adds nutrients to soil, helping plants grow.'
+  },
+  {
+    id: 'soil-21',
+    text: 'What is soil erosion?',
+    options: ['Soil being washed or blown away', 'Soil turning into water', 'Soil growing plants', 'Soil making noise'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Soil erosion is when soil is carried away by wind or water.'
+  },
+  {
+    id: 'soil-22',
+    text: 'Which of these helps keep soil healthy?',
+    options: ['Planting cover crops', 'Leaving soil bare', 'Adding trash', 'Pouring oil'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Cover crops protect and enrich the soil.'
+  },
+  {
+    id: 'soil-23',
+    text: 'What is the main ingredient in sandy soil?',
+    options: ['Sand', 'Clay', 'Plastic', 'Metal'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Sandy soil is made mostly of sand particles.'
+  },
+  {
+    id: 'soil-24',
+    text: 'Why do gardeners test soil?',
+    options: ['To check nutrients and pH', 'To see if it is tasty', 'To make it colorful', 'To make it noisy'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Testing soil helps gardeners know what nutrients or changes are needed.'
+  },
+  {
+    id: 'soil-25',
+    text: 'What is the best way to keep soil from drying out?',
+    options: ['Water it and use mulch', 'Add rocks', 'Add plastic', 'Leave it bare'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Watering and using mulch help keep soil moist.'
+  },
+  {
+    id: 'soil-26',
+    text: 'What do you call soil that is too wet and sticky?',
+    options: ['Clay', 'Sand', 'Gravel', 'Dust'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Clay soil is often wet and sticky.'
+  },
+  {
+    id: 'soil-27',
+    text: 'What is the main job of soil in a garden?',
+    options: ['Support and feed plants', 'Make noise', 'Grow rocks', 'Hold water only'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Soil supports plants and provides them with nutrients and water.'
+  },
+  {
+    id: 'soil-28',
+    text: 'Which of these is a benefit of earthworms in soil?',
+    options: ['They make tunnels that help air and water move', 'They eat plants', 'They make soil hard', 'They dry out the soil'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Earthworms make tunnels that help air and water move through soil.'
+  },
+  {
+    id: 'soil-29',
+    text: 'What is the best way to keep soil healthy?',
+    options: ['Add organic matter', 'Add plastic', 'Add salt', 'Add paint'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Adding organic matter like compost keeps soil healthy.'
+  },
+  {
+    id: 'soil-30',
+    text: 'What happens if soil is too hard?',
+    options: ['Roots have trouble growing', 'Plants grow faster', 'Soil gets lighter', 'Soil turns blue'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Hard soil makes it difficult for roots to grow and for water to move.'
+  },
+  // --- SOIL HEALTH: EASY (ADDED 2) ---
+  {
+    id: 'soil-31',
+    text: 'What is the main reason plants need soil?',
+    options: ['To get nutrients and water', 'To fly', 'To make noise', 'To glow'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Soil provides plants with nutrients and water they need to grow.'
+  },
+  {
+    id: 'soil-32',
+    text: 'Which of these is a sign of poor soil health?',
+    options: ['Few plants growing', 'Lots of worms', 'Dark color', 'Moisture'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'If few plants grow, the soil may be unhealthy.'
+  },
+  {
+    id: 'soil-33',
+    text: 'What do you call the process of adding dead plants to soil to help it?',
+    options: ['Composting', 'Painting', 'Sweeping', 'Washing'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Composting adds nutrients to soil by breaking down dead plants.'
+  },
+  {
+    id: 'soil-34',
+    text: 'Which of these is NOT a type of soil?',
+    options: ['Chocolate', 'Clay', 'Sand', 'Silt'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Chocolate is not a type of soil.'
+  },
+  {
+    id: 'soil-35',
+    text: 'What is the best way to keep soil from washing away?',
+    options: ['Plant grass or trees', 'Remove all plants', 'Add plastic', 'Dig holes'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Plants help hold soil in place and prevent erosion.'
+  },
+  {
+    id: 'soil-36',
+    text: 'What is the main job of earthworms in soil?',
+    options: ['Make tunnels and break down matter', 'Eat leaves', 'Make noise', 'Fly'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Earthworms make tunnels and help break down organic matter.'
+  },
+  {
+    id: 'soil-37',
+    text: 'Which of these is a benefit of adding mulch to soil?',
+    options: ['Keeps soil moist', 'Makes soil hard', 'Removes nutrients', 'Adds plastic'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Mulch helps soil retain moisture and stay cool.'
+  },
+  {
+    id: 'soil-38',
+    text: 'What is the best way to improve sandy soil?',
+    options: ['Add compost or organic matter', 'Add more sand', 'Add plastic', 'Add rocks'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Adding compost improves sandy soil by helping it hold water and nutrients.'
+  },
+  {
+    id: 'soil-39',
+    text: 'What is the main ingredient in clay soil?',
+    options: ['Tiny particles', 'Big rocks', 'Plastic', 'Glass'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Clay soil is made of very tiny particles.'
+  },
+  {
+    id: 'soil-40',
+    text: 'Why is it important to keep soil covered with plants or mulch?',
+    options: ['To prevent erosion and keep moisture', 'To make it look pretty', 'To keep it cold', 'To attract animals'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Covering soil prevents erosion and helps retain moisture.'
+  },
+  {
+    id: 'soil-41',
+    text: 'What is the best way to test if soil is healthy?',
+    options: ['Look for worms and plant growth', 'Check if it is dry', 'See if it is hard', 'Smell it'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Healthy soil usually has worms and lots of plant growth.'
+  },
+  {
+    id: 'soil-42',
+    text: 'What happens if you add too much water to soil?',
+    options: ['It can drown plant roots', 'It makes plants grow faster', 'It adds nutrients', 'It makes soil disappear'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Too much water can drown plant roots and harm plants.'
+  },
+  {
+    id: 'soil-43',
+    text: 'Which of these is a natural way to add nutrients to soil?',
+    options: ['Compost', 'Plastic', 'Paint', 'Glass'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Compost is a natural way to add nutrients to soil.'
+  },
+  {
+    id: 'soil-44',
+    text: 'What is the main job of soil in a forest?',
+    options: ['Support trees and plants', 'Make noise', 'Grow rocks', 'Hold water only'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Soil supports trees and plants in a forest.'
+  },
+  {
+    id: 'soil-45',
+    text: 'What is the best way to keep soil from blowing away in the wind?',
+    options: ['Plant grass or shrubs', 'Remove all plants', 'Add plastic', 'Dig holes'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Plants help hold soil in place and prevent wind erosion.'
+  },
+  {
+    id: 'soil-46',
+    text: 'What is the main reason to add compost to a garden?',
+    options: ['To add nutrients', 'To make it hard', 'To dry it out', 'To add plastic'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Compost adds nutrients to the soil, helping plants grow.'
+  },
+  {
+    id: 'soil-47',
+    text: 'What is the best way to keep soil healthy in a garden?',
+    options: ['Rotate crops', 'Plant the same thing every year', 'Add plastic', 'Add salt'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Rotating crops helps keep soil healthy and prevents disease.'
+  },
+  {
+    id: 'soil-48',
+    text: 'What is the main job of soil in a farm?',
+    options: ['Support crops and provide nutrients', 'Make noise', 'Grow rocks', 'Hold water only'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Soil supports crops and provides them with nutrients and water.'
+  },
+  {
+    id: 'soil-49',
+    text: 'What is the best way to keep soil from getting too hard?',
+    options: ['Add organic matter and avoid stepping on it', 'Add plastic', 'Add salt', 'Add paint'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Adding organic matter and avoiding compaction keeps soil loose and healthy.'
+  },
+  {
+    id: 'soil-50',
+    text: 'What is the main reason to keep soil healthy?',
+    options: ['To grow strong plants', 'To make it colorful', 'To make it noisy', 'To attract animals'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'easy',
+    explanation: 'Healthy soil is needed to grow strong, healthy plants.'
+  },
+  // --- SOIL HEALTH: MEDIUM ---
+  {
+    id: 'soil-51',
+    text: 'What is the main function of mycorrhizal fungi in soil?',
+    options: [
+      'Help plants absorb nutrients',
+      'Cause soil erosion',
+      'Make soil dry',
+      'Increase soil compaction'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Mycorrhizal fungi form symbiotic relationships with plant roots, helping them absorb nutrients.'
+  },
+  {
+    id: 'soil-52',
+    text: 'Which soil property is measured by a penetrometer?',
+    options: [
+      'Compaction',
+      'Color',
+      'pH',
+      'Temperature'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'A penetrometer measures how compacted the soil is.'
+  },
+  {
+    id: 'soil-53',
+    text: 'What is the main cause of soil acidification?',
+    options: [
+      'Overuse of nitrogen fertilizers',
+      'Adding compost',
+      'Planting trees',
+      'Using mulch'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Excessive use of nitrogen fertilizers can make soil more acidic.'
+  },
+  {
+    id: 'soil-54',
+    text: 'Which soil layer contains the most plant roots?',
+    options: [
+      'Topsoil',
+      'Bedrock',
+      'Subsoil',
+      'Parent material'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Most plant roots are found in the topsoil layer.'
+  },
+  {
+    id: 'soil-55',
+    text: 'What is the main benefit of crop rotation for soil?',
+    options: [
+      'Prevents nutrient depletion',
+      'Increases soil erosion',
+      'Reduces soil moisture',
+      'Makes soil harder'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Crop rotation helps maintain soil fertility and prevents nutrient depletion.'
+  },
+  {
+    id: 'soil-56',
+    text: 'Which element is essential for chlorophyll production in plants?',
+    options: [
+      'Magnesium',
+      'Iron',
+      'Calcium',
+      'Sulfur'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Magnesium is a key component of chlorophyll.'
+  },
+  {
+    id: 'soil-57',
+    text: 'What is the main function of soil aggregates?',
+    options: [
+      'Improve soil structure and water movement',
+      'Increase soil acidity',
+      'Reduce soil fertility',
+      'Make soil heavier'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Soil aggregates help water and air move through soil and improve structure.'
+  },
+  {
+    id: 'soil-58',
+    text: 'Which farming practice can lead to soil salinization?',
+    options: [
+      'Over-irrigation',
+      'Crop rotation',
+      'Adding compost',
+      'Mulching'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Over-irrigation without proper drainage can cause salts to build up in soil.'
+  },
+  {
+    id: 'soil-59',
+    text: 'What is the main role of earthworms in soil?',
+    options: [
+      'Decompose organic matter',
+      'Eat plant roots',
+      'Increase soil acidity',
+      'Reduce soil moisture'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Earthworms break down organic matter and improve soil structure.'
+  },
+  {
+    id: 'soil-60',
+    text: 'Which soil property affects how much water it can hold?',
+    options: [
+      'Texture',
+      'Color',
+      'Smell',
+      'Temperature'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Soil texture (sand, silt, clay) determines water-holding capacity.'
+  },
+  {
+    id: 'soil-61',
+    text: 'What is the main cause of nutrient leaching in soil?',
+    options: [
+      'Excessive rainfall or irrigation',
+      'Adding mulch',
+      'Planting cover crops',
+      'Using compost'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Too much water can wash nutrients out of the soil.'
+  },
+  {
+    id: 'soil-62',
+    text: 'Which soil organism is important for nitrogen fixation?',
+    options: [
+      'Rhizobium bacteria',
+      'Earthworms',
+      'Ants',
+      'Beetles'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Rhizobium bacteria fix nitrogen in the soil, making it available to plants.'
+  },
+  {
+    id: 'soil-63',
+    text: 'What is the main function of humus in soil?',
+    options: [
+      'Retain moisture and nutrients',
+      'Increase soil temperature',
+      'Make soil acidic',
+      'Reduce plant growth'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Humus helps soil retain moisture and nutrients.'
+  },
+  {
+    id: 'soil-64',
+    text: 'Which soil type is best for growing most crops?',
+    options: [
+      'Loam',
+      'Clay',
+      'Sand',
+      'Gravel'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Loam is a balanced soil type ideal for most crops.'
+  },
+  {
+    id: 'soil-65',
+    text: 'What is the main effect of soil compaction?',
+    options: [
+      'Reduces air and water movement',
+      'Increases plant growth',
+      'Makes soil lighter',
+      'Adds nutrients'
+    ],
+    correctAnswer: 0,
     category: 'soil',
     difficulty: 'medium',
     explanation: 'Compacted soil has less space for air and water, making it harder for plants to grow.'
+  },
+  {
+    id: 'soil-66',
+    text: 'Which process describes the breakdown of rocks into soil?',
+    options: [
+      'Weathering',
+      'Photosynthesis',
+      'Evaporation',
+      'Respiration'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Weathering is the process that breaks down rocks into soil.'
+  },
+  {
+    id: 'soil-67',
+    text: 'What is the main benefit of adding organic matter to soil?',
+    options: [
+      'Improves soil structure and fertility',
+      'Makes soil harder',
+      'Reduces plant growth',
+      'Increases soil acidity'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Organic matter improves soil structure and fertility.'
+  },
+  {
+    id: 'soil-68',
+    text: 'Which soil property is measured by a pH meter?',
+    options: [
+      'Acidity or alkalinity',
+      'Color',
+      'Texture',
+      'Temperature'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'A pH meter measures how acidic or alkaline the soil is.'
+  },
+  {
+    id: 'soil-69',
+    text: 'What is the main cause of soil erosion?',
+    options: [
+      'Wind and water movement',
+      'Adding compost',
+      'Planting trees',
+      'Using mulch'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Wind and water can carry soil away, causing erosion.'
+  },
+  {
+    id: 'soil-70',
+    text: 'Which farming practice helps prevent soil erosion?',
+    options: [
+      'Contour plowing',
+      'Overgrazing',
+      'Monoculture',
+      'Deforestation'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Contour plowing helps prevent soil erosion on slopes.'
+  },
+  {
+    id: 'soil-71',
+    text: 'Which mineral is most important for root development in plants?',
+    options: ['Phosphorus', 'Iron', 'Potassium', 'Zinc'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Phosphorus is essential for strong root growth in plants.'
+  },
+  {
+    id: 'soil-72',
+    text: 'What is the main function of soil microorganisms?',
+    options: ['Decompose organic matter', 'Increase soil compaction', 'Reduce soil fertility', 'Make soil dry'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Soil microorganisms break down organic matter and recycle nutrients.'
+  },
+  {
+    id: 'soil-73',
+    text: 'Which soil amendment is used to raise soil pH?',
+    options: ['Lime', 'Sulfur', 'Compost', 'Sand'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Lime is commonly used to make soil less acidic (raise pH).'
+  },
+  {
+    id: 'soil-74',
+    text: 'What is the main cause of soil nutrient depletion?',
+    options: ['Continuous cropping without replenishment', 'Adding compost', 'Planting cover crops', 'Using mulch'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Growing crops repeatedly without adding nutrients depletes soil fertility.'
+  },
+  {
+    id: 'soil-75',
+    text: 'Which soil property is most affected by organic matter?',
+    options: ['Water retention', 'Color', 'Temperature', 'Slope'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Organic matter helps soil retain water.'
+  },
+  {
+    id: 'soil-76',
+    text: 'What is the main benefit of reduced tillage farming?',
+    options: ['Preserves soil structure and reduces erosion', 'Increases soil compaction', 'Removes nutrients', 'Makes soil dry'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Reduced tillage helps maintain soil structure and prevents erosion.'
+  },
+  {
+    id: 'soil-77',
+    text: 'Which soil type is most likely to become waterlogged?',
+    options: ['Clay', 'Sand', 'Loam', 'Silt'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Clay soils have small particles and can easily become waterlogged.'
+  },
+  {
+    id: 'soil-78',
+    text: 'What is the main function of gypsum as a soil amendment?',
+    options: ['Improves soil structure and drainage', 'Raises soil pH', 'Adds nitrogen', 'Increases soil compaction'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Gypsum helps improve soil structure and drainage, especially in clay soils.'
+  },
+  {
+    id: 'soil-79',
+    text: 'Which process describes the movement of water downward through soil?',
+    options: ['Percolation', 'Evaporation', 'Photosynthesis', 'Respiration'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Percolation is the movement of water through soil layers.'
+  },
+  {
+    id: 'soil-80',
+    text: 'What is the main effect of excessive fertilizer use on soil?',
+    options: ['Can lead to nutrient runoff and pollution', 'Improves soil structure', 'Reduces soil erosion', 'Makes soil more acidic'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Too much fertilizer can cause nutrients to run off into water bodies, causing pollution.'
+  },
+  {
+    id: 'soil-81',
+    text: 'Which soil property is measured by a soil thermometer?',
+    options: ['Temperature', 'pH', 'Texture', 'Color'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'A soil thermometer measures the temperature of the soil.'
+  },
+  {
+    id: 'soil-82',
+    text: 'What is the main benefit of using cover crops?',
+    options: ['Protects soil from erosion and adds organic matter', 'Increases soil compaction', 'Removes nutrients', 'Makes soil dry'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Cover crops protect soil and add organic matter when they decompose.'
+  },
+  {
+    id: 'soil-83',
+    text: 'Which element is a secondary macronutrient for plants?',
+    options: ['Calcium', 'Nitrogen', 'Phosphorus', 'Potassium'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Calcium is a secondary macronutrient important for plant growth.'
+  },
+  {
+    id: 'soil-84',
+    text: 'What is the main function of soil pores?',
+    options: ['Allow air and water movement', 'Increase soil compaction', 'Reduce plant growth', 'Make soil dry'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Soil pores are spaces that allow air and water to move through soil.'
+  },
+  {
+    id: 'soil-85',
+    text: 'Which soil property is most important for seed germination?',
+    options: ['Moisture', 'Color', 'Slope', 'Smell'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Seeds need moisture in the soil to germinate.'
+  },
+  {
+    id: 'soil-86',
+    text: 'What is the main cause of soil crusting?',
+    options: ['Heavy rain on bare soil', 'Adding mulch', 'Planting cover crops', 'Using compost'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Heavy rain on bare soil can cause a hard crust to form on the surface.'
+  },
+  {
+    id: 'soil-87',
+    text: 'Which soil property is measured by a soil test kit?',
+    options: ['Nutrient content', 'Color', 'Slope', 'Temperature'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Soil test kits measure the nutrient content of soil.'
+  },
+  {
+    id: 'soil-88',
+    text: 'What is the main function of soil bacteria?',
+    options: ['Decompose organic matter and recycle nutrients', 'Increase soil compaction', 'Reduce soil fertility', 'Make soil dry'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Soil bacteria break down organic matter and recycle nutrients.'
+  },
+  {
+    id: 'soil-89',
+    text: 'Which soil type is best for drainage?',
+    options: ['Sand', 'Clay', 'Loam', 'Silt'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Sandy soils have large particles and drain water quickly.'
+  },
+  {
+    id: 'soil-90',
+    text: 'What is the main benefit of adding mulch to soil?',
+    options: ['Reduces evaporation and keeps soil moist', 'Increases soil compaction', 'Removes nutrients', 'Makes soil dry'],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'medium',
+    explanation: 'Mulch helps reduce evaporation and keeps soil moist.'
   },
   // --- SOIL HEALTH: HARD ---
   {
@@ -1454,5 +2186,925 @@ export const questions: Question[] = [
     category: 'planetary',
     difficulty: 'hard',
     explanation: 'Thawing permafrost releases greenhouse gases like methane and CO₂.'
+  },
+  {
+    id: 'soil-91',
+    text: 'What is the primary function of glomalin in soil?',
+    options: [
+      'Stabilizes soil aggregates and stores carbon',
+      'Acts as a plant hormone',
+      'Increases soil acidity',
+      'Reduces soil temperature'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Glomalin, produced by mycorrhizal fungi, helps bind soil particles and sequester carbon.'
+  },
+  {
+    id: 'soil-92',
+    text: 'Which process is responsible for the conversion of ammonium to nitrate in soil?',
+    options: [
+      'Nitrification',
+      'Denitrification',
+      'Ammonification',
+      'Mineralization'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Nitrification is the microbial process that converts ammonium to nitrate.'
+  },
+  {
+    id: 'soil-93',
+    text: 'What is the main role of actinomycetes in soil?',
+    options: [
+      'Decompose complex organic compounds like cellulose and chitin',
+      'Fix atmospheric nitrogen',
+      'Increase soil salinity',
+      'Reduce soil pH'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Actinomycetes are bacteria that break down tough organic matter in soil.'
+  },
+  {
+    id: 'soil-94',
+    text: 'Which soil enzyme is most closely associated with phosphorus cycling?',
+    options: [
+      'Phosphatase',
+      'Dehydrogenase',
+      'Urease',
+      'Catalase'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Phosphatase enzymes release phosphate from organic matter.'
+  },
+  {
+    id: 'soil-95',
+    text: 'What is the typical Cation Exchange Capacity (CEC) range for clay soils (in cmol/kg)?',
+    options: [
+      '20-50',
+      '1-5',
+      '5-10',
+      '50-100'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Clay soils typically have a CEC of 20-50 cmol/kg.'
+  },
+  {
+    id: 'soil-96',
+    text: 'Which soil order is characterized by a high content of organic matter and is common in wetlands?',
+    options: [
+      'Histosols',
+      'Oxisols',
+      'Aridisols',
+      'Vertisols'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Histosols are organic-rich soils found in wetlands and bogs.'
+  },
+  {
+    id: 'soil-97',
+    text: 'What is the main effect of aluminum toxicity in acidic soils?',
+    options: [
+      'Inhibits root growth and nutrient uptake',
+      'Increases soil pH',
+      'Promotes nitrogen fixation',
+      'Enhances microbial activity'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Aluminum toxicity in acidic soils can severely inhibit root growth.'
+  },
+  {
+    id: 'soil-98',
+    text: 'Which process describes the loss of nitrogen from soil as a gas?',
+    options: [
+      'Denitrification',
+      'Nitrification',
+      'Mineralization',
+      'Immobilization'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Denitrification is the process where nitrate is reduced and lost as nitrogen gas.'
+  },
+  {
+    id: 'soil-99',
+    text: 'What is the main function of the O horizon in a soil profile?',
+    options: [
+      'Contains organic matter such as decomposing leaves',
+      'Stores groundwater',
+      'Is the main mineral layer',
+      'Contains weathered bedrock'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'The O horizon is the top layer, rich in organic material.'
+  },
+  {
+    id: 'soil-100',
+    text: 'Which soil mineral is most responsible for cation exchange?',
+    options: [
+      'Montmorillonite',
+      'Quartz',
+      'Calcite',
+      'Gypsum'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Montmorillonite, a type of clay, has a high cation exchange capacity.'
+  },
+  {
+    id: 'soil-101',
+    text: 'What is the main cause of sodic soil formation?',
+    options: [
+      'Excess sodium ions displacing calcium and magnesium',
+      'High organic matter',
+      'Low rainfall',
+      'High phosphorus content'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Sodic soils form when sodium ions dominate the cation exchange sites.'
+  },
+  {
+    id: 'soil-102',
+    text: 'Which soil property is measured by the Atterberg limits?',
+    options: [
+      'Plasticity of fine-grained soils',
+      'Soil color',
+      'Soil pH',
+      'Soil temperature'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Atterberg limits measure the plasticity and consistency of fine-grained soils.'
+  },
+  {
+    id: 'soil-103',
+    text: 'What is the main function of protozoa in soil?',
+    options: [
+      'Regulate bacterial populations and nutrient cycling',
+      'Fix nitrogen',
+      'Increase soil acidity',
+      'Decompose cellulose'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Protozoa feed on bacteria and help release nutrients in soil.'
+  },
+  {
+    id: 'soil-104',
+    text: 'Which soil test is used to estimate available phosphorus?',
+    options: [
+      'Olsen test',
+      'Kjeldahl method',
+      'Loss on ignition',
+      'Bouyoucos hydrometer'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'The Olsen test is commonly used to estimate available phosphorus in soil.'
+  },
+  {
+    id: 'soil-105',
+    text: 'What is the main effect of soil bulk density on plant growth?',
+    options: [
+      'High bulk density restricts root penetration and water movement',
+      'Increases nutrient availability',
+      'Improves soil aeration',
+      'Reduces soil temperature'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'High soil bulk density can limit root growth and water infiltration.'
+  },
+  {
+    id: 'soil-106',
+    text: 'Which soil organism is most effective at decomposing lignin?',
+    options: [
+      'White rot fungi',
+      'Earthworms',
+      'Nematodes',
+      'Actinomycetes'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'White rot fungi are specialized in breaking down lignin in plant material.'
+  },
+  {
+    id: 'soil-107',
+    text: 'What is the main cause of acid sulfate soils?',
+    options: [
+      'Oxidation of sulfide minerals when soils are drained',
+      'Addition of lime',
+      'High organic matter',
+      'Low rainfall'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Acid sulfate soils form when sulfide minerals are exposed to air and oxidize.'
+  },
+  {
+    id: 'soil-108',
+    text: 'Which soil property is most affected by the presence of humic substances?',
+    options: [
+      'Cation exchange capacity',
+      'Soil temperature',
+      'Soil slope',
+      'Soil color'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Humic substances greatly increase the cation exchange capacity of soil.'
+  },
+  {
+    id: 'soil-109',
+    text: 'What is the main function of the B horizon in a soil profile?',
+    options: [
+      'Zone of accumulation of leached materials',
+      'Rich in organic matter',
+      'Contains unweathered rock',
+      'Is the surface layer'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'The B horizon accumulates minerals leached from above.'
+  },
+  {
+    id: 'soil-110',
+    text: 'Which soil process is most responsible for the formation of laterite soils?',
+    options: [
+      'Intense leaching in tropical climates',
+      'Glacial deposition',
+      'Volcanic activity',
+      'Wind erosion'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Laterite soils form through intense leaching in hot, wet climates.'
+  },
+  {
+    id: 'soil-111',
+    text: 'Which soil process is responsible for the reduction of nitrate to nitrogen gas under anaerobic conditions?',
+    options: [
+      'Denitrification',
+      'Nitrification',
+      'Ammonification',
+      'Mineralization'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Denitrification is the microbial process that reduces nitrate to nitrogen gas in the absence of oxygen.'
+  },
+  {
+    id: 'soil-112',
+    text: 'What is the main function of the C horizon in a soil profile?',
+    options: [
+      'Consists of weathered parent material',
+      'Rich in organic matter',
+      'Zone of leaching',
+      'Contains the most plant roots'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'The C horizon is made up of weathered parent material and little organic matter.'
+  },
+  {
+    id: 'soil-113',
+    text: 'Which soil order is most commonly associated with volcanic ash soils?',
+    options: [
+      'Andisols',
+      'Ultisols',
+      'Spodosols',
+      'Mollisols'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Andisols are soils formed from volcanic ash.'
+  },
+  {
+    id: 'soil-114',
+    text: 'What is the main effect of sodicity on soil structure?',
+    options: [
+      'Disperses clay particles and destroys soil aggregates',
+      'Increases soil fertility',
+      'Improves drainage',
+      'Enhances microbial activity'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Sodicity causes clay particles to disperse, leading to poor soil structure.'
+  },
+  {
+    id: 'soil-115',
+    text: 'Which soil property is measured by the Proctor test?',
+    options: [
+      'Maximum dry density and optimum moisture content',
+      'Soil pH',
+      'Cation exchange capacity',
+      'Soil color'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'The Proctor test determines the compaction characteristics of soil.'
+  },
+  {
+    id: 'soil-116',
+    text: 'What is the main function of the enzyme urease in soil?',
+    options: [
+      'Hydrolyzes urea to ammonia and carbon dioxide',
+      'Oxidizes iron',
+      'Reduces nitrate to nitrite',
+      'Decomposes cellulose'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Urease breaks down urea, releasing ammonia and carbon dioxide.'
+  },
+  {
+    id: 'soil-117',
+    text: 'Which soil mineral is most effective at adsorbing phosphate ions?',
+    options: [
+      'Goethite (iron oxide)',
+      'Quartz',
+      'Calcite',
+      'Gypsum'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Goethite, an iron oxide, strongly adsorbs phosphate ions in soil.'
+  },
+  {
+    id: 'soil-118',
+    text: 'What is the main cause of gleyed soil color (gray/blue) in the subsoil?',
+    options: [
+      'Prolonged water saturation and reduction of iron',
+      'High organic matter',
+      'Presence of manganese',
+      'Volcanic ash'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Gleyed colors indicate reduced iron due to waterlogged, anaerobic conditions.'
+  },
+  {
+    id: 'soil-119',
+    text: 'Which soil process is most responsible for the formation of spodic horizons?',
+    options: [
+      'Leaching of organic matter and aluminum/iron',
+      'Accumulation of calcium carbonate',
+      'Clay illuviation',
+      'Salt accumulation'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Spodic horizons form by leaching and accumulation of organic matter and metals.'
+  },
+  {
+    id: 'soil-120',
+    text: 'What is the main function of the enzyme dehydrogenase in soil?',
+    options: [
+      'Indicator of total microbial oxidative activity',
+      'Breaks down cellulose',
+      'Oxidizes ammonia',
+      'Reduces nitrate'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Dehydrogenase activity reflects overall microbial activity in soil.'
+  },
+  {
+    id: 'soil-121',
+    text: 'Which soil property is most affected by the presence of sodium ions?',
+    options: [
+      'Soil dispersion and poor structure',
+      'Soil color',
+      'Soil temperature',
+      'Soil pH'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Sodium ions cause soil particles to disperse, leading to poor structure.'
+  },
+  {
+    id: 'soil-122',
+    text: 'What is the main effect of biochar addition to soil?',
+    options: [
+      'Improves cation exchange capacity and water retention',
+      'Increases soil acidity',
+      'Reduces organic matter',
+      'Promotes soil compaction'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Biochar can improve soil fertility, CEC, and water retention.'
+  },
+  {
+    id: 'soil-123',
+    text: 'Which soil process is responsible for the transformation of organic nitrogen to ammonium?',
+    options: [
+      'Mineralization',
+      'Nitrification',
+      'Denitrification',
+      'Immobilization'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Mineralization converts organic nitrogen to ammonium.'
+  },
+  {
+    id: 'soil-124',
+    text: 'What is the main function of the enzyme catalase in soil?',
+    options: [
+      'Breaks down hydrogen peroxide into water and oxygen',
+      'Decomposes cellulose',
+      'Oxidizes ammonia',
+      'Reduces nitrate'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Catalase protects soil microbes by breaking down hydrogen peroxide.'
+  },
+  {
+    id: 'soil-125',
+    text: 'Which soil order is most common in arid and semi-arid regions?',
+    options: [
+      'Aridisols',
+      'Mollisols',
+      'Ultisols',
+      'Spodosols'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Aridisols are soils found in dry climates.'
+  },
+  {
+    id: 'soil-126',
+    text: 'What is the main effect of manganese toxicity in soil?',
+    options: [
+      'Inhibits plant growth and causes leaf chlorosis',
+      'Increases soil pH',
+      'Promotes nitrogen fixation',
+      'Enhances microbial activity'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Excess manganese can be toxic to plants, causing chlorosis and stunted growth.'
+  },
+  {
+    id: 'soil-127',
+    text: 'Which soil process is most responsible for the formation of caliche layers?',
+    options: [
+      'Accumulation of calcium carbonate in arid soils',
+      'Clay illuviation',
+      'Salt leaching',
+      'Organic matter decomposition'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Caliche forms by the accumulation of calcium carbonate in dry soils.'
+  },
+  {
+    id: 'soil-128',
+    text: 'What is the main function of the enzyme β-glucosidase in soil?',
+    options: [
+      'Breaks down cellulose into glucose',
+      'Oxidizes ammonia',
+      'Reduces nitrate',
+      'Decomposes lignin'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'β-glucosidase is involved in cellulose degradation, releasing glucose.'
+  },
+  {
+    id: 'soil-129',
+    text: 'Which soil property is most affected by the presence of iron oxides?',
+    options: [
+      'Soil color (red/yellow hues)',
+      'Soil pH',
+      'Soil temperature',
+      'Soil texture'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'Iron oxides give soil its characteristic red or yellow color.'
+  },
+  {
+    id: 'soil-130',
+    text: 'What is the main effect of soil salinity on plant growth?',
+    options: [
+      'Reduces water uptake and causes osmotic stress',
+      'Increases nutrient availability',
+      'Improves soil structure',
+      'Promotes root elongation'
+    ],
+    correctAnswer: 0,
+    category: 'soil',
+    difficulty: 'hard',
+    explanation: 'High soil salinity makes it harder for plants to absorb water, causing stress.'
+  },
+  {
+    id: 'plant-31',
+    text: 'Which plant hormone is primarily responsible for cell elongation and growth?',
+    options: ['Auxin', 'Ethylene', 'Gibberellin', 'Cytokinin'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Auxin is a key hormone that promotes cell elongation and growth in plants.'
+  },
+  {
+    id: 'plant-32',
+    text: 'What is the main function of stomata in plant leaves?',
+    options: ['Gas exchange', 'Water storage', 'Nutrient absorption', 'Support'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Stomata are pores that allow for gas exchange (CO₂ in, O₂ out) in leaves.'
+  },
+  {
+    id: 'plant-33',
+    text: 'Which pigment is essential for photosynthesis in plants?',
+    options: ['Chlorophyll', 'Carotene', 'Anthocyanin', 'Xanthophyll'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Chlorophyll is the green pigment that captures light energy for photosynthesis.'
+  },
+  {
+    id: 'plant-34',
+    text: 'What is the process by which plants lose water vapor through their leaves?',
+    options: ['Transpiration', 'Respiration', 'Photosynthesis', 'Germination'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Transpiration is the loss of water vapor from plant leaves.'
+  },
+  {
+    id: 'plant-35',
+    text: 'Which macronutrient is most important for strong root development in plants?',
+    options: ['Phosphorus', 'Nitrogen', 'Potassium', 'Calcium'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Phosphorus is essential for healthy root growth.'
+  },
+  {
+    id: 'plant-36',
+    text: 'What is the main function of xylem tissue in plants?',
+    options: ['Transport water and minerals', 'Store starch', 'Produce flowers', 'Absorb sunlight'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Xylem transports water and minerals from roots to the rest of the plant.'
+  },
+  {
+    id: 'plant-37',
+    text: 'Which part of the plant is primarily responsible for anchoring it in the soil?',
+    options: ['Roots', 'Stems', 'Leaves', 'Flowers'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Roots anchor the plant and absorb water and nutrients.'
+  },
+  {
+    id: 'plant-38',
+    text: 'What is the main function of phloem tissue in plants?',
+    options: ['Transport sugars and nutrients', 'Absorb water', 'Support the plant', 'Produce seeds'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Phloem transports sugars and nutrients produced by photosynthesis.'
+  },
+  {
+    id: 'plant-39',
+    text: 'Which element is a micronutrient essential for chlorophyll synthesis?',
+    options: ['Magnesium', 'Iron', 'Copper', 'Zinc'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Magnesium is a central atom in the chlorophyll molecule.'
+  },
+  {
+    id: 'plant-40',
+    text: 'What is the main function of guard cells in plant leaves?',
+    options: ['Regulate the opening and closing of stomata', 'Store water', 'Produce pollen', 'Absorb minerals'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Guard cells control the opening and closing of stomata for gas exchange.'
+  },
+  {
+    id: 'plant-41',
+    text: 'Which process allows plants to convert light energy into chemical energy?',
+    options: ['Photosynthesis', 'Respiration', 'Transpiration', 'Fermentation'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Photosynthesis converts light energy into chemical energy (glucose).'
+  },
+  {
+    id: 'plant-42',
+    text: 'Which plant structure is responsible for producing seeds?',
+    options: ['Flower', 'Leaf', 'Root', 'Stem'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Flowers are the reproductive structures that produce seeds.'
+  },
+  {
+    id: 'plant-43',
+    text: 'What is the main function of root hairs?',
+    options: ['Increase surface area for water and nutrient absorption', 'Store starch', 'Anchor the plant', 'Produce flowers'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Root hairs increase the surface area for absorption.'
+  },
+  {
+    id: 'plant-44',
+    text: 'Which plant hormone is responsible for fruit ripening?',
+    options: ['Ethylene', 'Auxin', 'Gibberellin', 'Cytokinin'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Ethylene is a gaseous hormone that promotes fruit ripening.'
+  },
+  {
+    id: 'plant-45',
+    text: 'What is the main function of the cuticle on plant leaves?',
+    options: ['Reduce water loss', 'Absorb sunlight', 'Produce seeds', 'Transport nutrients'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'The cuticle is a waxy layer that reduces water loss from leaves.'
+  },
+  {
+    id: 'plant-46',
+    text: 'Which process describes the movement of sugars from leaves to other parts of the plant?',
+    options: ['Translocation', 'Transpiration', 'Respiration', 'Germination'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Translocation is the movement of sugars through the phloem.'
+  },
+  {
+    id: 'plant-47',
+    text: 'Which mineral deficiency causes interveinal chlorosis in young leaves?',
+    options: ['Iron', 'Magnesium', 'Potassium', 'Calcium'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Iron deficiency causes yellowing between the veins of young leaves.'
+  },
+  {
+    id: 'plant-48',
+    text: 'What is the main function of lenticels on plant stems?',
+    options: ['Allow gas exchange', 'Store water', 'Produce flowers', 'Absorb nutrients'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Lenticels are small openings that allow gas exchange in stems.'
+  },
+  {
+    id: 'plant-49',
+    text: 'Which process is responsible for the uptake of water by plant roots?',
+    options: ['Osmosis', 'Diffusion', 'Active transport', 'Transpiration'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Osmosis is the movement of water into roots from the soil.'
+  },
+  {
+    id: 'plant-50',
+    text: 'Which plant structure is responsible for the perception of gravity?',
+    options: ['Statoliths in root cap cells', 'Guard cells', 'Xylem vessels', 'Phloem fibers'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Statoliths are specialized organelles in root cap cells that help plants sense gravity.'
+  },
+  {
+    id: 'plant-51',
+    text: 'Which process describes the movement of water from roots to leaves in plants?',
+    options: ['Cohesion-tension', 'Diffusion', 'Active transport', 'Fermentation'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'The cohesion-tension theory explains how water moves upward through xylem.'
+  },
+  {
+    id: 'plant-52',
+    text: 'What is the main function of the endodermis in plant roots?',
+    options: ['Regulates water and nutrient uptake', 'Stores starch', 'Produces flowers', 'Absorbs sunlight'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'The endodermis acts as a selective barrier for water and nutrients entering the vascular system.'
+  },
+  {
+    id: 'plant-53',
+    text: 'Which plant hormone is primarily responsible for seed dormancy?',
+    options: ['Abscisic acid', 'Auxin', 'Gibberellin', 'Ethylene'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Abscisic acid (ABA) maintains seed dormancy until conditions are right for germination.'
+  },
+  {
+    id: 'plant-54',
+    text: 'What is the main function of the palisade mesophyll in leaves?',
+    options: ['Photosynthesis', 'Water storage', 'Support', 'Transport'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'The palisade mesophyll contains many chloroplasts and is the main site of photosynthesis.'
+  },
+  {
+    id: 'plant-55',
+    text: 'Which mineral is essential for the synthesis of ATP in plants?',
+    options: ['Phosphorus', 'Magnesium', 'Potassium', 'Calcium'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Phosphorus is a key component of ATP, the energy currency of cells.'
+  },
+  {
+    id: 'plant-56',
+    text: 'What is the main function of the pericycle in plant roots?',
+    options: ['Initiates lateral root growth', 'Absorbs water', 'Stores starch', 'Produces flowers'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'The pericycle is a layer of cells that gives rise to lateral roots.'
+  },
+  {
+    id: 'plant-57',
+    text: 'Which pigment protects plants from excessive light by dissipating excess energy?',
+    options: ['Carotenoids', 'Chlorophyll', 'Anthocyanins', 'Phytochrome'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Carotenoids protect plants from photooxidative damage.'
+  },
+  {
+    id: 'plant-58',
+    text: 'What is the main function of the casparian strip in roots?',
+    options: ['Prevents uncontrolled water flow into the vascular system', 'Stores nutrients', 'Produces hormones', 'Absorbs sunlight'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'The casparian strip is a barrier that regulates water and solute movement into the xylem.'
+  },
+  {
+    id: 'plant-59',
+    text: 'Which process is responsible for the opening of stomata in response to light?',
+    options: ['Active transport of potassium ions', 'Diffusion of CO₂', 'Transpiration', 'Fermentation'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Potassium ions are actively transported into guard cells, causing stomata to open.'
+  },
+  {
+    id: 'plant-60',
+    text: 'What is the main function of phytochrome in plants?',
+    options: ['Senses red/far-red light and regulates photoperiodism', 'Stores starch', 'Absorbs water', 'Produces flowers'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Phytochrome is a photoreceptor that helps plants sense day length.'
+  },
+  {
+    id: 'plant-61',
+    text: 'Which mineral is essential for the activation of many plant enzymes?',
+    options: ['Magnesium', 'Iron', 'Zinc', 'Copper'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Magnesium is a cofactor for many plant enzymes.'
+  },
+  {
+    id: 'plant-62',
+    text: 'What is the main function of the spongy mesophyll in leaves?',
+    options: ['Facilitates gas exchange', 'Stores water', 'Provides support', 'Produces seeds'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'The spongy mesophyll has air spaces that facilitate gas exchange.'
+  },
+  {
+    id: 'plant-63',
+    text: 'Which process describes the movement of sugars from source to sink in plants?',
+    options: ['Pressure-flow hypothesis', 'Cohesion-tension', 'Diffusion', 'Fermentation'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'The pressure-flow hypothesis explains how sugars move through phloem.'
+  },
+  {
+    id: 'plant-64',
+    text: 'What is the main function of the apical meristem?',
+    options: ['Promotes primary growth and elongation', 'Stores nutrients', 'Absorbs water', 'Produces flowers'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'The apical meristem is a region of active cell division at the tips of roots and shoots.'
+  },
+  {
+    id: 'plant-65',
+    text: 'Which plant hormone is primarily responsible for stem elongation?',
+    options: ['Gibberellin', 'Auxin', 'Cytokinin', 'Ethylene'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Gibberellins promote stem elongation and seed germination.'
+  },
+  {
+    id: 'plant-66',
+    text: 'What is the main function of the periderm in woody plants?',
+    options: ['Protects against water loss and pathogens', 'Stores starch', 'Absorbs sunlight', 'Produces seeds'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'The periderm (bark) protects woody stems from water loss and infection.'
+  },
+  {
+    id: 'plant-67',
+    text: 'Which mineral is essential for the synthesis of chlorophyll and is often deficient in sandy soils?',
+    options: ['Magnesium', 'Calcium', 'Potassium', 'Sulfur'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Magnesium is a central component of chlorophyll and is often low in sandy soils.'
+  },
+  {
+    id: 'plant-68',
+    text: 'What is the main function of the vascular cambium?',
+    options: ['Produces new xylem and phloem', 'Stores water', 'Absorbs nutrients', 'Produces flowers'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'The vascular cambium is a lateral meristem that produces secondary xylem and phloem.'
+  },
+  {
+    id: 'plant-69',
+    text: 'Which process describes the loss of water from plant leaves at night?',
+    options: ['Guttation', 'Transpiration', 'Respiration', 'Fermentation'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'Guttation is the exudation of water droplets from leaf edges, usually at night.'
+  },
+  {
+    id: 'plant-70',
+    text: 'What is the main function of the root cap?',
+    options: ['Protects the root tip as it grows through soil', 'Absorbs water', 'Stores starch', 'Produces flowers'],
+    correctAnswer: 0,
+    category: 'plant',
+    difficulty: 'easy',
+    explanation: 'The root cap protects the delicate tip of the root as it pushes through soil.'
   }
 ];

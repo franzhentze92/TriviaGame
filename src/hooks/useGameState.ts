@@ -60,11 +60,14 @@ export const useGameState = () => {
       filteredQuestions = filteredQuestions.filter(q => q.difficulty === difficulty);
     }
 
+    // Shuffle questions before limiting and shuffling options
+    filteredQuestions = shuffle(filteredQuestions);
+
     // Limit to 10 questions
     filteredQuestions = filteredQuestions.slice(0, 10);
 
     if (filteredQuestions.length === 0) {
-      filteredQuestions = allQuestions.slice(0, 10);
+      filteredQuestions = shuffle(allQuestions).slice(0, 10);
     }
 
     // Shuffle options for each question

@@ -1,0 +1,25 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <circle cx="250" cy="250" r="250" fill="white"/>
+    <g>
+      <path d="M0 250C0 111.929 111.929 0 250 0C388.071 0 500 111.929 500 250C500 388.071 388.071 500 250 500C111.929 500 0 388.071 0 250Z" fill="white"/>
+      <g>
+        <path d="M250 400C180 400 120 340 120 270H380C380 340 320 400 250 400Z" fill="#388E3C"/>
+        <path d="M250 400C320 400 380 340 380 270H250V400Z" fill="#43A047"/>
+        <path d="M250 400C180 400 120 340 120 270H250V400Z" fill="#2E7D32"/>
+        <path d="M250 270L250 400" stroke="#FBC02D" stroke-width="8"/>
+        <circle cx="250" cy="270" r="30" fill="#FBC02D"/>
+        <path d="M250 120V240" stroke="#FBC02D" stroke-width="8"/>
+        <path d="M250 120L250 80" stroke="#FBC02D" stroke-width="8"/>
+        <path d="M250 120L220 100" stroke="#FBC02D" stroke-width="8"/>
+        <path d="M250 120L280 100" stroke="#FBC02D" stroke-width="8"/>
+        <path d="M250 120L200 120" stroke="#FBC02D" stroke-width="8"/>
+        <path d="M250 120L300 120" stroke="#FBC02D" stroke-width="8"/>
+        <path d="M250 120L210 140" stroke="#FBC02D" stroke-width="8"/>
+        <path d="M250 120L290 140" stroke="#FBC02D" stroke-width="8"/>
+      </g>
+      <text x="250" y="60" text-anchor="middle" font-size="40" font-family="Arial" fill="black">MTS G.R.O.W</text>
+      <text x="250" y="480" text-anchor="middle" font-size="32" font-family="Arial" fill="black">NUTRITION FARMING HUB</text>
+    </g>
+  </g>
+</svg> 
