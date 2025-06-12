@@ -23,6 +23,7 @@ interface GameState {
   selectedDifficulty: string | null;
   gameMode: 'simple' | 'campaign' | null;
   availableQuestions: Question[];
+  usedQuestionIds: Set<string>;
 }
 
 export const useGameState = () => {
@@ -45,7 +46,8 @@ export const useGameState = () => {
     selectedCategory: null,
     selectedDifficulty: null,
     gameMode: null,
-    availableQuestions: []
+    availableQuestions: [],
+    usedQuestionIds: new Set()
   });
 
   const startGame = useCallback((category?: string, difficulty?: string, mode: 'simple' | 'campaign' = 'simple', customQuestions?: Question[]) => {
@@ -58,6 +60,20 @@ export const useGameState = () => {
 
     if (difficulty && !customQuestions) {
       filteredQuestions = filteredQuestions.filter(q => q.difficulty === difficulty);
+    }
+
+    // Filter out recently used questions
+    const unusedQuestions = filteredQuestions.filter(q => !gameState.usedQuestionIds.has(q.id));
+    
+    // If we don't have enough unused questions, reset the used questions set
+    if (unusedQuestions.length < 10) {
+      setGameState(prev => ({
+        ...prev,
+        usedQuestionIds: new Set()
+      }));
+      filteredQuestions = filteredQuestions;
+    } else {
+      filteredQuestions = unusedQuestions;
     }
 
     // Shuffle questions before limiting and shuffling options
@@ -77,6 +93,12 @@ export const useGameState = () => {
       return { ...q, options, correctAnswer };
     });
 
+    // Add used questions to the set
+    setGameState(prev => ({
+      ...prev,
+      usedQuestionIds: new Set([...prev.usedQuestionIds, ...shuffledQuestions.map(q => q.id)])
+    }));
+
     setGameState(prev => ({
       ...prev,
       gameStarted: true,
@@ -95,7 +117,7 @@ export const useGameState = () => {
       selectedAnswer: null,
       showResult: false
     }));
-  }, []);
+  }, [gameState.usedQuestionIds]);
 
   const selectAnswer = useCallback((answerIndex: number) => {
     if (gameState.showResult) return;
@@ -165,7 +187,8 @@ export const useGameState = () => {
       selectedCategory: null,
       selectedDifficulty: null,
       gameMode: null,
-      availableQuestions: []
+      availableQuestions: [],
+      usedQuestionIds: new Set()
     });
   }, []);
 
